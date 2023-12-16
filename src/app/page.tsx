@@ -13,11 +13,14 @@ export default function Home() {
     <div className='mx-5'>
   <h1 className='text-center font-bold my-4 text-xl md:text-4xl'>Welcome to our city</h1>
 
-<p className='text-center'></p>
+<p className='text-center'>Mobile Services</p>
 </div>
+
+<div className='items-center justify-center w-auto'>
   <Slideshow/>
+</div>
     
-    <h2 className='text-center font-bold text-xl md:text-4xl mt-5 text-blue-400'>Our Serves</h2>
+    <h2 className='text-center font-bold text-xl md:text-4xl mt-5 text-blue-400'>Our Products</h2>
 
     {data && data.map((d) => (
     <main key={d.id} className="grid grid-cols-1 md:grid-cols-3 mb-3 items-center justify-between gap-2">
@@ -42,19 +45,7 @@ export default function Home() {
     </main>
    ))}
 
-
-
   </div>
   )
 }
 
-// export async function getStaticProps(){
-//   const filePath = path.join(process.cwd(),"data", "db.json")
-//   const dataJson = await fs.readFile(filePath)
-//   const data = JSON.parse(dataJson)
-//   return {
-//     props: {
-//       products: data.products
-//     }
-//   }
-// }

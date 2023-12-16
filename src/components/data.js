@@ -1,17 +1,18 @@
-export default  [
+ export default [
   {
     "id":1,
-    "title": "Sea service ",
-    "titleA": "خدمات بحرية ",
-    "image": "/image/ship7.jpg",
-    "description": "Sea service",
-    "desArbic": ""
+    "title": "شاحن",
+    "image": "/img/chargerHeat.jpg",
+    "description": "شاحن بسلك حراري"
   },{
     "id":2,
-    "title": "Sea service",
-    "titleA": "خدمات بحرية ",
-    "image": "/image/ship2.jpg",
-    "description": "Sea service",
-    "desArbic": ""
+    "title": "جراب ",
+    "image": "/img/cover.jpg",
+    "description": "جراب بخامة مميزة",
+  },{
+    "id":3,
+    "title": "سماعة",
+    "image": "/img/headPhone2.jpg",
+    "description": "سماعة "
   }
 ]
