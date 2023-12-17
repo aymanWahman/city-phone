@@ -9,7 +9,7 @@ const Page = () => {
         <div className=" rounded-xl">
           <Image
             className="rounded-xl shadow-2xl shadow-black w-full"
-            src="/img/mEltrabely.jpg"
+            src="/img/logo.jpg"
             alt="Logo"
             width={280}
             height={140}
