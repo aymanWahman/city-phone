@@ -22,6 +22,7 @@ const Header = () => {
     <ul className='flex mr-3 gap-2 md:gap-9 items-center text-blue-500'>
     {/* <li className='text-xs md:text-xl '><Link href="/arbic"><LanguageIcon className="w-6 h-6" /></Link></li> */}
         <li className='text-xs md:text-xl '><Link href="/">Home</Link></li>
+        <li className='text-xs md:text-xl '><Link href="/kids">Kids</Link></li>
         <li className='text-xs md:text-xl '><Link href="/about">About</Link></li>
         </ul>
   
