@@ -8,6 +8,7 @@ const Page = () => {
       <div className="grid md:grid-cols-4 gap-5 p-5 rounded-xl items-center text-center mt-32">
 
         <div className=" rounded-xl">
+        <Link href="/mobile">
           <Image
             className="rounded-xl shadow-2xl shadow-black w-full"
             src="/img/cityKids.png"
@@ -16,8 +17,9 @@ const Page = () => {
             height={140}
             priority
           />
-          <h2>Mobile</h2>
-          <p>Comming soon</p>
+          </Link>
+          <h2 className="mt-5">Mobile</h2>
+          
         </div>
 
         <div>
