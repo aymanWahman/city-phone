@@ -22,7 +22,7 @@ export default function Home() {
 
 <h2 className='text-center font-bold text-xl md:text-4xl mt-5 text-blue-400'>Our Products</h2>
 
-    <div className = "grid grid-cols-1 md:grid-cols-3 mb-3 items-center justify-between gap-2">
+    <div className = "grid grid-cols-1 md:grid-cols-3 mb-3 items-center justify-between gap-1">
     {data && data.map((p) => (
       <>
     <div key={p.id} className='my-5 ml-auto mr-auto'>
@@ -30,7 +30,7 @@ export default function Home() {
       className="rounded shadow-2xl shadow-black"
       src={p.image}
       alt="Logo"
-      width={360}
+      width={350}
       height={130}
       priority
     />
