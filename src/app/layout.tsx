@@ -1,28 +1,30 @@
-import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
-import './globals.css'
-import Header from '../components/Header'
-import Footer from '../components/Footer'
 
-const inter = Inter({ subsets: ['latin'] })
+import { Inter } from 'next/font/google';
+import './globals.css';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 
-export const metadata: Metadata = {
+const inter = Inter({ subsets: ['latin'] });
+
+export const metadata = {
   title: 'City Phone',
   description: 'Mobile services',
-}
+};
 
 export default function RootLayout({
-  children,
+  children
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Header/>
+      
+        <Header  />
         {children}
-        <Footer/>
-        </body>
+        <Footer />
+        
+      </body>
     </html>
-  )
+  );
 }

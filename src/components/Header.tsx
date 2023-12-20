@@ -1,7 +1,9 @@
+"use client"
 import Image from 'next/image';
 import Link from 'next/link';
-import { LanguageIcon } from '@heroicons/react/24/solid'
+// import { LanguageIcon } from '@heroicons/react/24/solid'
 
+import DarkModeToggle from './DarkModeToggle';
 const Header = () => {
   return (
     <div className='flex fixed top-0 w-full p-3 z-50 justify-between  rounded-b-2xl border border-orange-500 shadow-2xl '>
@@ -24,6 +26,7 @@ const Header = () => {
         <li className='text-xs md:text-xl '><Link href="/">Home</Link></li>
         <li className='text-xs md:text-xl '><Link href="/kids">Kids</Link></li>
         <li className='text-xs md:text-xl '><Link href="/about">About</Link></li>
+      <DarkModeToggle/>
         </ul>
   
     </div>

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 
 const Page = () => {
@@ -20,6 +21,7 @@ const Page = () => {
         </div>
 
         <div>
+        <Link href="/programming">
         <Image
             className="rounded-xl shadow-2xl shadow-black w-full"
             src="/img/cityKids1.jpg"
@@ -28,11 +30,13 @@ const Page = () => {
             height={140}
             priority
           />
-          <h2>Programming</h2>
-          <p>Comming soon</p>
+            </Link>
+          <h2 className="mt-5">Programming</h2>
+        
         </div>
 
         <div>
+        
         <Image
             className="rounded-xl shadow-2xl shadow-black w-full"
             src="/img/cityKids2.jpg"
@@ -41,6 +45,7 @@ const Page = () => {
             height={140}
             priority
           />
+        
           <h2>English</h2>
           <p>Comming soon</p>
 

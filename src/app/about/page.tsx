@@ -15,7 +15,7 @@ const Page = () => {
             height={140}
             priority
           />
-          <h2 className="p-3 font-bold text-3xl">Mohamed Eltrabely</h2>
+          {/* <h2 className="p-3 font-bold text-3xl">Mohamed Eltrabely</h2> */}
         </div>
 
 
