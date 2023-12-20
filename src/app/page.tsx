@@ -19,6 +19,7 @@ export default function Home() {
 <div className='items-center justify-center w-auto'>
   <Slideshow/>
 </div>
+
 <h2 className='text-center font-bold text-xl md:text-4xl mt-5 text-blue-400'>Our Products</h2>
 
     <div className = "grid grid-cols-1 md:grid-cols-3 mb-3 items-center justify-between gap-2">
@@ -36,10 +37,7 @@ export default function Home() {
     <h1 className='text-center font-bold text-lg md:text-2xl mt-4'>{p.title}</h1>
     <p className='text-center text-xl'>{p.description}</p>
     </div>
-    
-  
     </>
-    
    ))}
 </div>
   </div>
