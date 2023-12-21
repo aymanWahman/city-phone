@@ -26,24 +26,27 @@ const Slideshow = () => {
     transitionDuration: 300,
     infinity: true,
     prevArrow:(
-      <div className='ml-40 top-60 md:top-92 '>
-        <ArrowLeftIcon className='h-8 w-8 text-white cursor-pointer' />
+      <div className='ml-96 top-60 md:top-92 '>
+        <ArrowLeftIcon className='h-8 w-8 text-orange-600 cursor-pointer' />
       </div>
     ),
     nextArrow:(
-      <div className='mr-40 top-60 md:top-92'>
-        <ArrowRightIcon className='h-8 w-8 text-white cursor-pointer' />
+      <div className='mr-96 top-60 md:top-92'>
+        <ArrowRightIcon className='h-8 w-8 text-orange-600 cursor-pointer' />
       </div>
     )
   }
   return (
-    <div className='mt-5 w-full'>
+    <div className='mt-5 '>
     <Zoom {...ZoomInProperties}>
       {images.map((each, index) => (
         <div key={index} className='flex justify-center md:items-center items-start w-screen relative shadow-2xl '>
-          <img className='w-screen md:w-10/12 h-96 rounded-md border-2 border-blue-400' src={each}/>
-        <h1 className='absolute md:top-60 top-24 inset-x-1/4 text-center z-10  text-2xl md:text-4xl bold text-white'></h1>
-        <p className='absolute md:top-80 top-40 inset-x-1/4 text-center z-10 text-xs md:text-xl bold text-white'>Everything you can imagine is real</p>
+
+          <img src={each} className= "w-screen md:w-6/12 h-96 rounded-md border-2 border-orange-600" />
+
+        {/* <h1 className='absolute md:top-60 top-24 inset-x-1/4 text-center z-10  text-2xl md:text-4xl bold text-white'>hgkk</h1> */}
+
+        <p className='absolute md:top-80 top-40 inset-x-1/4 text-center z-10 text-xs md:text-xl bold text-orange-500'>Everything you can imagine is real</p>
         </div>
       ))}
     </Zoom>

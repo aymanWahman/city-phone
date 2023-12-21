@@ -7,7 +7,7 @@ export default function Mobile() {
     <div className='mx-5'>
   <h1 className='text-center font-bold my-4 text-xl md:text-4xl'>Welcome to City Kids</h1>
 
-<h2 className='text-center text-xl md:text-4xl text-blue-900'>Mobile</h2>
+<h2 className='text-center text-xl md:text-4xl text-orange-600'>Mobile</h2>
 </div>
 
     

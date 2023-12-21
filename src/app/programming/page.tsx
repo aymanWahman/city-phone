@@ -7,7 +7,7 @@ export default function Programming() {
     <div className='mx-5'>
   <h1 className='text-center font-bold my-4 text-xl md:text-4xl'>Welcome to City Kids</h1>
 
-<h2 className='text-center text-xl md:text-4xl text-blue-900'>Programming</h2>
+<h2 className='text-center text-xl md:text-4xl text-orange-600'>Programming</h2>
 </div>
 
     
@@ -30,6 +30,8 @@ export default function Programming() {
     <div className='col-span-2 p-3 md:mr-9 shadow-2xl shadow-black space-y-3 md:h-64 '>
     <h1 className='text-center font-bold text-lg md:text-2xl mt-4'>{d.title}</h1>
     <p className='text-center text-xl'>{d.description}</p>
+    <p className='text-center text-xl'>{d.explain}</p>
+    <p className='text-center text-xl'>{d.trans}</p>
     </div>
     
     

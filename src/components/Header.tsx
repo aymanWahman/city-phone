@@ -5,7 +5,7 @@ import Link from 'next/link';
 import DarkModeToggle from './DarkModeToggle';
 const Header = () => {
   return (
-    <div className='flex fixed top-0 w-full p-3 z-50 justify-between  rounded-b-2xl border border-orange-500 shadow-2xl '>
+    <div className='flex fixed top-0 w-full p-3 z-50 justify-between  rounded-b-2xl border border-orange-600 shadow-2xl '>
       
     <div className='flex bg-transparent items-center gap-2 md:gap-3 '>
       
@@ -17,7 +17,7 @@ const Header = () => {
               height={20}
               priority
             />
-            <h1 className='font-extrabold text-xl md:text-6xl text-blue-500 font-serif'>City Phone</h1>
+            <h1 className='font-extrabold text-l md:text-6xl text-blue-500 font-serif'>City Phone</h1>
     </div>
 
     <ul className='flex mr-3 gap-2 md:gap-9 items-center text-blue-500'>
