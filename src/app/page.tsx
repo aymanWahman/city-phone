@@ -12,7 +12,7 @@ export default function Home() {
   <div className='mt-36'>
 
    <div className='mx-5'>
-    <h1 className='text-center font-bold my-4 text-xl md:text-4xl'>Welcome to our city</h1>
+    <h1 className=' text-center font-bold my-4 text-xl md:text-4xl'>Welcome to our city</h1>
     <p className='text-center'>Mobile Services</p>
    </div>
 
@@ -41,9 +41,9 @@ export default function Home() {
     <h1 className='text-center font-bold text-lg md:text-2xl mt-4'>{p.title}</h1>
     <p className='text-center text-xl'>{p.description}</p>
 
-  <div className='flex gap-8 mt-3 bg-slate-200 text-white text-center items-center justify-center'>  
-    <button className='bg-orange-600 rounded-xl p-4 m-4'>Add To Cart</button>
-    <button className='bg-orange-600 rounded-xl p-4 m-4'>Show more</button>
+  <div className='flex gap-1 mt-3 text-white text-center items-center justify-center'>  
+    <button className='bg-orange-600 rounded-xl p-2 m-4 w-full font-bold'>Add To Cart</button>
+    <button className='bg-orange-600 rounded-xl p-2 m-4 w-full font-bold'>Show more</button>
   </div>
 
   </div>

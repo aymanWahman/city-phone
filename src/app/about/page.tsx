@@ -20,7 +20,7 @@ const Page = () => {
         <div className="col-span-3 w-full py-16 rounded-xl space-y-4 border-2 border-blue-400">
         
           <h2 className="text-2xl md:text-6xl font-bold mb-9 text-blue-200">City Phone</h2>
-          <p className="text-xl md:text-2xl">Welcom to our city</p>
+          <p className="text-xl md:text-2xl">Welcome to our city</p>
         
         </div>
 

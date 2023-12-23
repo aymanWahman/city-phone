@@ -1,17 +1,18 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; */
 
-/* body{
-  color: #0000;
-  background-color: #ffff;
-}
-[data-theme="dark"] body {
-  background-color: #0000;
-  color: #ffff;
+/* styles/globals.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* body.dark {
+  @apply bg-gray-800 text-white;
 } */
 
-/* body.dark-mode {
-  background-color: #1a1a1a;
-  color: #ffffff;
-  } */
+/* @layer base{
+  body {
+      @apply dark:bg-gray-800 bg-white
+  }
+}   */

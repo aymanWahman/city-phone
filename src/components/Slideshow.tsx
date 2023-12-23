@@ -46,7 +46,7 @@ const Slideshow = () => {
 
         {/* <h1 className='absolute md:top-60 top-24 inset-x-1/4 text-center z-10  text-2xl md:text-4xl bold text-white'>hgkk</h1> */}
 
-        <p className='absolute md:top-80 top-40 inset-x-1/4 text-center z-10 text-xs md:text-xl bold text-orange-500'>Everything you can imagine is real</p>
+        <p className='absolute md:top-80 top-40 inset-x-1/4 text-center z-10 text-xs md:text-xl bold text-orange-500 hover:text-gray-600'>Everything you can imagine is real</p>
         </div>
       ))}
     </Zoom>
