@@ -2,7 +2,7 @@
 
 const Footer = () => {
   return (
-    <div className='justify-center bg-transparent rounded-t-xl border-2 border-orange-500 shadow-2xl w-full'>
+    <div className='justify-center bg-transparent rounded-t-xl border-2 border-orange-600 shadow-2xl w-full'>
     <h3 className="text-blue-600 font-bold text-2xl text-center mt-3">Mohamed Eltrabely</h3>  
 
         <div className='flex gap-x-2 md:gap-x-6 text-sm md:text-xl p-5 justify-center  items-center'>

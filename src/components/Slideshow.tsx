@@ -26,12 +26,12 @@ const Slideshow = () => {
     transitionDuration: 300,
     infinity: true,
     prevArrow:(
-      <div className='ml-96 top-60 md:top-92 '>
+      <div className='md:ml-96 top-64 md:top-92 '>
         <ArrowLeftIcon className='h-8 w-8 text-orange-600 cursor-pointer' />
       </div>
     ),
     nextArrow:(
-      <div className='mr-96 top-60 md:top-92'>
+      <div className='md:mr-96 top-64 md:top-92'>
         <ArrowRightIcon className='h-8 w-8 text-orange-600 cursor-pointer' />
       </div>
     )
@@ -42,11 +42,11 @@ const Slideshow = () => {
       {images.map((each, index) => (
         <div key={index} className='flex justify-center md:items-center items-start w-screen relative shadow-2xl '>
 
-          <img src={each} className= "w-screen md:w-6/12 h-96 rounded-md border-2 border-orange-600" />
+          <img src={each} className= "w-screen md:w-6/12 h-96 rounded-md border-2 border-orange-600"  />
 
         {/* <h1 className='absolute md:top-60 top-24 inset-x-1/4 text-center z-10  text-2xl md:text-4xl bold text-white'>hgkk</h1> */}
 
-        <p className='absolute md:top-80 top-40 inset-x-1/4 text-center z-10 text-xs md:text-xl bold text-orange-500 hover:text-gray-600'>Everything you can imagine is real</p>
+        <p className='absolute top-80 inset-x-1/4 text-center z-10 text-xs md:text-xl bold text-orange-500 hover:text-gray-600'>Everything you can imagine is real</p>
         </div>
       ))}
     </Zoom>
