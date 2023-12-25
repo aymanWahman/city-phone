@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import data from '../../../components/dataProducts';
+import data from '@/components/dataProducts';
 import Link from 'next/link';
 
 export const metadata = {
