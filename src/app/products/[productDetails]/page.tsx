@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import data from '@/components/dataProducts';
+import data from '../../../components/dataProducts';
 import Link from 'next/link';
 
 export const metadata = {
@@ -25,6 +25,7 @@ export default function productDetails({params} : {
     <div className = "grid grid-cols-1 md:grid-cols-3  mb-3 items-center justify-between gap-1">
     {data && data.map((p) => (
       <>
+      
     <div key={p.id} className='my-5 ml-auto mr-auto border border-orange-600 rounded '>
     <Image
       className="rounded shadow-2xl shadow-black"

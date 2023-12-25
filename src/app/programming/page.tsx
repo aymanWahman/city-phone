@@ -11,7 +11,7 @@ export default function Programming() {
 </div>
 
     
-    <h2 className='text-center font-bold text-xl md:text-4xl mt-5 text-blue-400'>How do computers represent info with just binary?</h2>
+    <h2 className='text-center font-bold text-xl md:text-4xl mt-5 text-gray-400'>How do computers represent info with just binary?</h2>
 
     {data && data.map((d) => (
     <main key={d.id} className="grid grid-cols-1 md:grid-cols-3 mb-3 items-center justify-between gap-2">
