@@ -9,7 +9,10 @@ export default function Programming() {
 
 <h2 className='text-center text-xl md:text-4xl text-orange-600'>Programming</h2>
 </div>
+<div className='w-full '>
+<iframe className='mx-auto ' src='city-kids-hardware.pdf' width="50%"  height="350"></iframe>
 
+</div>
     
     <h2 className='text-center font-bold text-xl md:text-4xl mt-5 text-gray-400'>How do computers represent info with just binary?</h2>
 
@@ -33,13 +36,14 @@ export default function Programming() {
     <p className='text-center text-xl'>{d.explain}</p>
     <p className='text-center text-xl'>{d.trans}</p>
     </div>
-    
+  
+  
     
     </main>
    ))}
 
-<iframe src='city-kids-hardware.pdf' width="750" height="450"></iframe>
 
   </div>
+  
   )
 }
