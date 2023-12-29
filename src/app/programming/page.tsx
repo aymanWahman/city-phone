@@ -38,6 +38,8 @@ export default function Programming() {
     </main>
    ))}
 
+<iframe src='city-kids-hardware.pdf' width="750" height="450"></iframe>
+
   </div>
   )
 }

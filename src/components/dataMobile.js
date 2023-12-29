@@ -2,7 +2,7 @@ export default  [
   {
     "id": 1,
     "title": "Screen",
-    "image": "/img/headPhone2.jpg",
+    "image": "/img/screen.jpg",
     "description": "Computers use the binary number system to represent info"
   },
   {

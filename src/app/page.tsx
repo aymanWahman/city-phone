@@ -16,7 +16,8 @@ export default function Home() {
     <p className='text-center'>Mobile Services</p>
    </div>
 
-    
+
+
     <div className='items-center justify-center w-auto'>
     <Slideshow/>
    </div>
