@@ -10,7 +10,7 @@ export default function Programming() {
 <h2 className='text-center text-xl md:text-4xl text-orange-600'>Programming</h2>
 </div>
 <div className='w-full '>
-<iframe className='mx-auto ' src='city-kids-hardware.pdf' width="50%"  height="350"></iframe>
+<iframe className='mx-auto w-60 md:w-92' src='city-kids-hardware.pdf'   height="450"></iframe>
 
 </div>
     
