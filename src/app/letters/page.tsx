@@ -24,8 +24,8 @@ export default function hardware() {
     </div>
     
     <div className='col-span-2 p-3 md:mr-9 shadow-2xl shadow-black space-y-3 md:h-64 '>
-    <h1 className='text-center font-bold text-lg md:text-2xl md:mt-8'>{d.Letter}</h1>
-    <p className='text-center text-xl font-bold text-yellow-700'>{d.Word}</p>
+    <h1 className='text-center font-bold text-lg md:text-2xl md:mt-8 text-gray-500'>{d.Letter}</h1>
+    <p className='text-center text-xl font-bold text-yellow-400'>{d.Word}</p>
     <p className='text-center text-xl font-bold text-blue-500'>{d.Sentence}</p>
     </div>
   
