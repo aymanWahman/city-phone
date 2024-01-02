@@ -5,7 +5,7 @@ import Link from "next/link";
 const Page = () => {
   return (
     <>
-      <div className="grid md:grid-cols-4 gap-5 p-5 rounded-xl items-center text-center mt-32">
+      <div className="grid md:grid-cols-3 gap-5 p-5 rounded-xl items-center text-center mt-32">
 
         <div className=" rounded-xl">
         <Link href="/mobile">
@@ -39,6 +39,7 @@ const Page = () => {
 
         <div>
         
+        <Link href="/letters">
         <Image
             className="rounded-xl shadow-2xl shadow-black w-full"
             src="/img/cityKids2.jpg"
@@ -47,13 +48,14 @@ const Page = () => {
             height={140}
             priority
           />
+        </Link>
+      
         
-          <h2>English</h2>
-          <p>Comming soon</p>
+          <h2 className="mt-5">English</h2>
 
         </div>
 
-        <div>
+        {/* <div>
         <Image
             className="rounded-xl shadow-2xl shadow-black w-full"
             src="/img/cityKids4.jpg"
@@ -65,7 +67,7 @@ const Page = () => {
           <h2>Arbic</h2>
           <p>Comming soon</p>
 
-        </div>
+        </div> */}
 
       </div>
 
