@@ -1,18 +1,21 @@
 import Image from 'next/image'
 import data from '@/components/dataHardware'
+import Link from 'next/link'
 
 export default function hardware() {
   return (
     <div className='mt-36'>
     
-
+<div className='text-center font-bold text-2xl text-y'>
+  <Link href="/programming"><button>Hardware</button></Link>
+  </div>
     
     <h2 className='text-center font-bold text-xl md:text-4xl mt-5 text-gray-400'>How do computers represent info with just binary?</h2>
 
     {data && data.map((d) => (
     <main key={d.id} className="grid grid-cols-1 md:grid-cols-3 mb-3 items-center justify-between gap-2">
 
-    <div className='my-5 ml-auto mr-auto'>
+    <div className='my-5 mx-auto'>
     <Image
       className="rounded shadow-2xl shadow-black"
       src={d.image}

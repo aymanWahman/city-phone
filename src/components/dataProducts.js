@@ -1,4 +1,5 @@
-export default [
+
+const DataProducts = [
   {
     "id":1,
     "title": "شاحن",
@@ -56,3 +57,5 @@ export default [
     "price": 125
   }
 ]
+
+export default DataProducts;

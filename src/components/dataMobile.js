@@ -1,9 +1,9 @@
-export default  [
+const DataMobile =  [
   {
     "id": 1,
     "title": "Screen",
     "image": "/img/screen.jpg",
-    "description": "Computers use the binary number system to represent info"
+    "description": "Some description"
   },
   {
     "id": 2,
@@ -18,3 +18,5 @@ export default  [
     "description": "Another description"
   }
 ];
+
+export default DataMobile;

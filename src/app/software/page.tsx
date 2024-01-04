@@ -1,11 +1,14 @@
 import Image from 'next/image'
 import data from '@/components/dataSoftware'
+import Link from 'next/link'
 
 export default function software() {
   return (
     <div className='mt-36'>
     
-
+    <div className='text-center font-bold text-2xl text-yellow-600'>
+  <Link href="/programming"><button>Software</button></Link>
+  </div>
     
     <h2 className='text-center font-bold text-xl md:text-4xl mt-5 text-gray-400'>How do computers represent info with just binary?</h2>
 

@@ -1,4 +1,4 @@
-export default  [
+const DataSoftware =  [
   {
     "id":1,
     "title": "Binary",
@@ -13,3 +13,5 @@ export default  [
     "description": "هي جعل الكمبيوتر ينفذ مهمة بدون أخطاء"
   }
 ]
+
+export default DataSoftware;

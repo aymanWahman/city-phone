@@ -5,13 +5,13 @@ import Link from "next/link";
 const Page = () => {
   return (
     <>
-      <div className="grid md:grid-cols-3 gap-5 p-5 rounded-xl items-center text-center mt-32">
+      <div className="grid md:grid-cols-2 gap-5 p-5 rounded-xl text-center text-yellow-600 mt-32">
 
-        <div className=" rounded-xl">
+        {/* <div className=" rounded-xl">
         <Link href="/mobile">
           <Image
             className="rounded-xl shadow-2xl shadow-black w-full"
-            src="/img/cityKids.png"
+            src="/img/cityKids1.jpg"
             alt="Logo"
             width={280}
             height={140}
@@ -20,13 +20,13 @@ const Page = () => {
           </Link>
           <h2 className="mt-5">Mobile</h2>
           
-        </div>
+        </div> */}
 
-        <div>
+        <div className="mx-auto">
         <Link href="/programming">
         <Image
-            className="rounded-xl shadow-2xl shadow-black w-full"
-            src="/img/cityKids1.jpg"
+            className="rounded-xl shadow-2xl shadow-black w-96"
+            src="/img/cityKids.png"
             alt="Logo"
             width={280}
             height={140}
@@ -34,14 +34,13 @@ const Page = () => {
           />
             </Link>
           <h2 className="mt-5">Programming</h2>
-        
         </div>
 
-        <div>
-        
+
+        <div className="mx-auto">
         <Link href="/letters">
         <Image
-            className="rounded-xl shadow-2xl shadow-black w-full"
+            className="rounded-xl shadow-2xl shadow-black w-96"
             src="/img/cityKids2.jpg"
             alt="Logo"
             width={280}
