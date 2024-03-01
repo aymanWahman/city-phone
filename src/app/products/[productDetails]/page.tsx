@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import data from '../../../components/dataProducts';
+import data from '@/components/dataProducts';
 import Link from 'next/link';
 
 export const metadata = {
@@ -9,6 +9,13 @@ export const metadata = {
 export default function productDetails({params} : {
   params: {productDetails: string}
 }) {
+  const productId = params.productDetails;
+  const p = data.find((pro) => pro.id.toString() === productId);
+
+  if (!p) {
+    // If the product with the given ID is not found, you can handle it accordingly
+    return <p className='text-center text-red-600 mt-40 mb-20'>Product not found</p>;
+  }
 
   return (
   <div className='mt-36'>
@@ -20,13 +27,8 @@ export default function productDetails({params} : {
     
    </div>
 
-  
-
-    <div className = "grid grid-cols-1 md:grid-cols-3  mb-3 items-center justify-between gap-1">
-    {data && data.map((p) => (
-      <>
       
-    <div key={p.id} className='my-5 ml-auto mr-auto border border-orange-600 rounded '>
+    <div key={p.id} className='my-5 mx-5 border border-orange-600 rounded '>
     <Image
       className="rounded shadow-2xl shadow-black"
       src={p.image}
@@ -44,12 +46,10 @@ export default function productDetails({params} : {
   </div>
 
   </div>
-
-    </>
-   ))}
+  
     </div>
 
-  </div>
+
   )
 }
 
